@@ -76,6 +76,11 @@ header a:hover {
 	border-bottom: 2px solid #005EB8;
 }
 
+header a img {
+	text-decoration: none;
+	border-bottom: none;
+}
+
 header a:active {
 	color: #005EB8;
 }
@@ -864,6 +869,7 @@ footer img {
 /* --- HOE WERKT HET? --- */
 #detailMain section:nth-child(3) {
 	background-color: #fff;
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 }
